@@ -24,6 +24,10 @@ android {
     }
 }
 
+apply plugin: 'replugin-plugin-gradle'
+
+
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.qihoo360.replugin:replugin-plugin-lib:2.2.4'
